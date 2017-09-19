@@ -26,7 +26,7 @@ int main()
 		zombieFour.SetAttackPower(20);
 		(zombieOne.GetHealth - zombieTwo.GetAttackPower);
 		(zombieThree.GetHealth - zombieFour.GetAttackPower);
-		(zombieFour.GetHealth - zombieThree.GetHealth);
+		(zombieFour.GetHealth - zombieThree.GetAttackPower);
 	system("pause");
 
 
